@@ -10,6 +10,10 @@ import (
 )
 
 func init() {
+	//adobe_api.AddUser("a@gmail.com", AuthInfo.Token)
+	//adobe_api.AddAllApps("a@gmail.com", AuthInfo.Token)
+	//os.Exit(0)
+
 	KeyMap = ReadKeys()
 	Users = ReadUsers()
 	AuthInfo.GetToken(&mutex)

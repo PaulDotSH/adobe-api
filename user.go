@@ -1,7 +1,7 @@
 package main
 
 import (
-	adobe_api "adobeBoss/adobe-api"
+	adobe_api "adobe/adobe-api"
 	"fmt"
 	"time"
 )
